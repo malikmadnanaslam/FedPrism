@@ -80,21 +80,7 @@ The checked-in `results/` directory contains aggregate artifacts from a run of t
 
 A new run overwrites the aggregate outputs and creates the local row-level prediction file. Do not force-add private data or row-level outputs to Git.
 
-## Uploading to GitHub
 
-Create an empty repository on GitHub, then from this directory run:
-
-```bash
-git init
-git add .
-git status --short
-git commit -m "Add FedPRISM experiment source"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-git push -u origin main
-```
-
-Replace the remote URL with your newly created GitHub repository address. Before pushing, review `git status` and confirm that `data/sapex_d.csv` and `results/test_predictions.csv` are not listed. `.gitignore` excludes all files in `data/` except this README and `.gitkeep`, and excludes row-level prediction files while retaining aggregate results. Do not use `git add -f` on data or student-level output files.
 
 ## License
 
