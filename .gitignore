@@ -1,0 +1,22 @@
+# Python bytecode and local environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Private dataset: only the access instructions and placeholder are tracked
+/data/*
+!/data/README.md
+!/data/.gitkeep
+
+# Row-level outputs: do not commit student-level labels, predictions, or scores
+/results/*prediction*
+/results/*student*level*
+
+# Local editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
