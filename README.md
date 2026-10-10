@@ -1,6 +1,6 @@
 # FedPRISM: at-risk screening experiment
 
-Reproducible Python code for a retrospective student at-risk classification experiment. The repository contains the modeling and evaluation pipeline, dependency list, and aggregate result artifacts. It does **not** contain the SAPEx-D dataset or student-level test predictions.
+Python code for a retrospective student at-risk classification experiment. The repository contains the modeling and evaluation pipeline, dependency list, and aggregate result artifacts. It does **not** contain the SAPEx-D dataset or student-level test predictions.
 
 ## Scope, data access, and privacy
 
